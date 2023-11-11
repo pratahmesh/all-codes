@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .bg-grey{
+        background-color: gray;
+    }
+    .border{
+        border: 3px solid black;
+    }
+</style>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <br>
+    <h1>Hello World</h1>
+    <section>
+        <h1 
+        class="border"
+        abc="123"
+        id="main-heading" 
+        data-std="321">
+        Something Here. . .</h1>
+    </section>
+    <script>
+        window.onload = function(){
+            const show = document.getElementById('main-heading');
+console.log(show);
+// const id  = show.getAttribute('id');
+// console.log(id);
+// console.log(show.dataset);
+// console.log(show.getAttribute('data-std'));
+// console.log(show.getAttribute('abc')); 
+// console.log(show.className); 
+// console.log(show.classList);
+// show.className='bg-grey border abc';//we can add multiple class by giving space
+// to remove a class 
+// show.className='bg-grey abc'; 
+console.log(show.textContent);
+show.textContent='heyyya';
+
+// const cloned = headingElement.cloneNode();
+// cloned.textContent = 'This is heyy no. 2';
+
+const subHeading = document.createElement('h4');
+subHeading.textContent= 'This is mini Hey';
+document.body.appendChild(subHeading);
+
+const firstArticle  = document.querySelector('article');//only first one 
+// console.log(firstArticle);
+const article = document.querySelectorAll('article');
+// console.log(article);
+const elements = document.querySelectorAll('.bg-grey')
+console.log(elements);
+}
+
+    </script>
+    <article class="bg-grey"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed perspiciatis ad ab beatae ipsa. Reprehenderit, iusto nulla! Consequuntur voluptatibus nulla enim amet. Magnam, illum fugiat asperiores, dicta, pariatur quia cumque ipsa aliquid deserunt aut hic.</article>
+    <br>
+    <article class="bg-grey"> expedita totam assumenda suscipit ad odio? Itaque id quia ex suscipit nihil possimus beatae, nulla nostrum quae magni ipsam nobis cum expedita nemo natus? Distinctio cumque autem quibusdam, inventore quisquam neque expedita. Illum, ipsum?</article>
+    <script src="jsonly.js">  
+    </script>
+</body>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+  <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+</svg>
+
+</html>
+<!-- http://127.0.0.1:5500/jsonly.html -->
+
+<!-- Windows object represents the windows like console,prompt,confirm,etc,all can be visibel if we type windows in console -->

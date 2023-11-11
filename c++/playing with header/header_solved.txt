@@ -1,0 +1,35 @@
+//maths1.cpp
+#include "maths1.h"
+#include <iostream>
+int add(int a,int b){
+    return a+b;
+}
+int sub(int a,int b){
+    return a-b;
+}
+int print(int a){
+    std::cout<<"i am op "<<a;
+   return 0;
+}
+
+
+
+//maths1.h
+#include <iostream>
+#pragma
+int add(int a,int b);
+int sub(int a,int b);
+int print(int a);
+
+
+
+
+//addandsub 
+#include "maths1.cpp" 
+using namespace std;
+int main(){
+    cout<<add(2,8)<<endl;
+    cout<<sub(8,2)<<endl;
+    cout<<print(8);
+    return 0;
+}

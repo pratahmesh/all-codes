@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+    .navbar-toggler .navbar-toggler-icon {
+      visibility: hidden;
+    }
+    @media (max-width: 900px) { 
+    .navbar-toggler .navbar-toggler-icon{
+        
+        visibility:visible;
+      }
+    }
+    .container-fluid{
+      visibility: hidden;
+    }
+    @media (max-width: 900px){
+      .container-fluid{
+        visibility: visible;
+        background-color: rgb(223, 221, 221);
+      }
+    }
+    .showfull{
+      visibility: visible;
+    }
+    @media (max-width: 900px){
+      .showfull{
+        visibility: inherit;
+      }
+    }
+.navbar{
+  padding: 2px;
+}
+    
+    
+   
+    </style>
+  </head>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    </main>
+    <nav class="navbar back">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-3" href="#">Fashion Zone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas end-0" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+
+            <div class="showfull" >
+            <div class="d-flex flex-column  p-3 text-white bg-dark " style="width: 200px; height: 100vh">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                  <span class="fs-4">Sidebar</span>
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto ">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                      Orders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+                      Products
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link text-white">
+                      <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                      Customers
+                    </a>
+                  </li>
+                </ul>
+                <hr>
+                <div class="dropup">
+                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                    <strong>mdo</strong>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+
+
+    </div>
+
+          </div>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>

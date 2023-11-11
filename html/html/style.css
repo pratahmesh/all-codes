@@ -1,0 +1,19 @@
+h1{
+    color:blue
+}
+h3{
+    color:rgb(42, 165, 50)
+}
+.prathamesh{
+    color: rgb(114, 54, 235);
+}
+a:hover{
+    color:rebeccapurple;
+    text-decoration: none;
+    background-color: rgb(224, 237, 72);
+}
+li[class] {
+    font-size: 100%;
+    color:royalblue;
+   
+}

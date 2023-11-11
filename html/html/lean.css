@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(214, 234, 33);
+}
+p{
+ color: rgb(233, 142, 24);
+}
+.background{
+    background-image: url("img.png");
+  background-size:  400px; 
+  height: 400;
+  width: 300;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h4{
+    color:red;
+    line-height: 4;
+    font-weight: 800;
+    text-indent: 100px;
+    word-spacing: 40px;
+}
+h3{
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-shadow:2px 2px 1px  rgb(0, 0, 0);
+}

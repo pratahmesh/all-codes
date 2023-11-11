@@ -1,0 +1,26 @@
+.top1{
+    background-color: rgb(86, 183, 248);
+    word-spacing: 30px;
+    padding: 17px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-radius: 35px;
+}
+.top{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow:rgb(218, 248, 86)1px 1px;
+}
+.top:hover{
+    color: rgb(60, 255, 0);
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
+.container{
+    background-color: aqua  ;
+}
+.bg-primary{
+    background-color: rgb(255, 0, 0);
+}

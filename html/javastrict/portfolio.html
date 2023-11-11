@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head> 
+  <body>
+    <div class="container">
+      <aside>
+        <div class="navbar">
+          <div class="user-logo"><img src="#" /></div>
+          <nav>
+            <ul>
+              <li class="selectedLink" name="home">Home</li>
+              <li name="about">About Me</li>
+              <li name="resume">Resume</li>
+              <li name="contact">Contact</li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <main>
+        <div class="card active home" data-home>
+          <div class="title">Home Page</div>
+          <div class="content">Content Goes Here</div>
+        </div>
+        <div class="card about" data-about>
+          <div class="title">About Me Page</div>
+          <div class="content">Content Goes Here</div>
+        </div>
+        <div class="card resume" data-resume>
+          <div class="title">Resume Page</div>
+          <div class="content">Content Goes Here</div>
+        </div>
+        <div class="card contact" data-contact>
+          <div class="title">Contact Page</div>
+          <div class="content">Content Goes Here</div>
+        </div>
+      </main>
+    </div>
+    <script>
+      const showMessage = () => {
+        alert("Hello JavaScript");
+      };
+    </script>
+  </body>
+</html>

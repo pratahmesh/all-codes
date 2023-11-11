@@ -1,0 +1,12 @@
+.iamlive{
+    color: blue;
+}
+.class-2 a {
+color: inherit;
+}
+.class-3 a {
+    color: initial;
+}
+.class-4 a{
+    color: unset;
+}

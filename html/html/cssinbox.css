@@ -1,0 +1,58 @@
+.in {
+
+    padding: 18px;
+    border: 10px solid black;
+    margin: 20px;
+}
+
+.ok,
+.nok {
+    height: 100px;
+    width: 100px;
+}
+
+.ok {
+    margin: 30px;
+    background-color: aquamarine;
+
+}
+
+.nok {
+    padding: 30px;
+    background-color: blueviolet;
+}
+
+.jin {
+    background-color: red;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+ text-align: center;
+float: left;
+ padding: 20px;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a:hover{
+    color: tomato;
+}
+nav a:visited{
+    color: royalblue;
+}
+table,tr,th,td{
+border: 2px solid black;
+border-collapse: collapse;
+padding: 10px;
+border-spacing: 50px;
+}
+th{
+    background-color: coral;
+}
+td{
+    background-color: cornflowerblue;
+}

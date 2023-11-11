@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "1fb4291a-21d2-42bc-b5f4-c72802d15b23",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3000/api/auth",
+        "url": "http://localhost:3000/api/auth",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2023-08-08T19:38:59.618Z",
+        "modified": "2023-08-08T19:38:59.618Z",
+        "headers": [],
+        "params": [],
+        "tests": []
+    }
+]

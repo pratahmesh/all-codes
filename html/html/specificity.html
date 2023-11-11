@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="specificity.css">
+    <title>Document</title>
+    <style>
+        ul#summer li.fav {
+            color: red;
+            font-weight: bold;
+            font-size: large;
+        }
+        ul#summer li.fav {
+            color: rgb(34, 255, 0);
+        }
+
+        ul#summer li {
+            font-size: 12px;
+            color: black;
+            font-weight: normal;
+        }
+        .imp{
+            color: blue !important;
+        }
+        .le{
+            width:100px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10px;
+            object-fit: contain;
+        }
+        .li{
+            width:100px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10px;
+            object-fit: cover;
+        }
+        .lo{
+            width:100px;
+            height: 100px;
+            border: 5px solid black;
+            margin: 10px;
+            object-fit: fill;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="summer">
+        <li>montain dew</li>
+        <li class="fav" style="color: hotpink;">appy fizz</li>
+        <li>jeeru</li>
+    </ul>
+    <ul class="iamlive">
+        <li class="class-1">default<a href="">link</a>color</li>
+        <li class="class-2">inhertance<a href="">link</a>color</li>
+        <li class="class-3">initial<a href="">link</a>color</li>
+        <li class="class-4">unset<a href="">link</a>color</li>
+    </ul>
+    comment: if specificity is same then the bottom one is selected and if we add style attribute in tr itself then it is
+    overwrited and has the maximum specificity <br>
+    csacading is greater in effective in inlne than internal and external 
+    <p class="imp" style="color: red;">this is the pragraphy</p>
+    <img class="le" src="peakpx (1).jpg" alt="" >
+    <img class="li" src="peakpx (1).jpg" alt="" >
+    <img class="lo" src="peakpx (1).jpg" alt="" >
+</body>
+
+</html>
